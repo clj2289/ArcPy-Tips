@@ -6,7 +6,7 @@ ArcPy tips, tricks, best management practices and most of all...hacks!
 ## Best Management Practices
 * Use of data access cursors (arcpy.da.*)
 * Always use a scratch workspace if you _have_ to write data to disk
-* Turn of archiving unless its required
+* Turn off archiving unless its required
 
 ## Tips
 * Call your python scripts from the command line and sent in parameters
