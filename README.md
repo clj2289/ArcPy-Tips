@@ -14,6 +14,7 @@ ArcPy tips, tricks, best management practices and most of all...hacks!
 * Use PyPyODBC
 * Always use in_memory feature classes when possible for high performance
 * Use list comprehension 
+* Install pip on windows
 
 ## Tricks
 * Use arcpy old style cursors for reprojection
@@ -23,6 +24,7 @@ ArcPy tips, tricks, best management practices and most of all...hacks!
 * For performance reasons, use synchronous tasks when possible
 * Set logging level to "Info" in geoprocessing tasks to capture excution time of the task
 * Set running instances to 0 for all GP and Mapservices in development to conserve memory on the ArcGIS server
+* Access files on a windows file share in an arcpy script using win_unc
 
 ## Hacks
 * sql server rowid 
