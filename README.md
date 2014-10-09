@@ -19,7 +19,9 @@ ArcPy tips, tricks, best management practices and most of all...hacks!
 *   download ez_setup.py 
 *   open command prompt as administrator
 *   c:\python27\ArcGISx6410.2\python ez_setup.py
-*   c:\python27\ArcGISx6410.2\Scripts\easy_install.exe install pip
+*   cd c:\python27\ArcGISx6410.2\Scripts\
+*   easy_install.exe install pip
+*   pip install <whatever>
 
 * Working with and installing python libraries for 64 Bit python i.e. c:\python27\ArcGISx6410.2\python
 
