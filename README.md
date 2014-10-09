@@ -34,6 +34,7 @@ ArcPy tips, tricks, best management practices and most of all...hacks!
 * Set logging level to "Info" in geoprocessing tasks to capture excution time of the task
 * Set running instances to 0 for all GP and Mapservices in development to conserve memory on the ArcGIS server
 * Access files on a windows file share in an arcpy script using win_unc
+* Geoprocssing services are running 64bit (c:\PYTHON27\ArcGISx6410.2) python while scripts that are run via ArcCatalog are running under 32bit python (c:\PYTHON27\ArcGIS10.2) you must install both a 32bit and a 64bit python library to be able to publish a GP service
 
 ## Hacks
 * sql server rowid 
