@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-import arcpy
-=======
 ```python
 import arcpy
 
@@ -24,4 +21,3 @@ with arcpy.da.UpdateCursor(fc, fields) as cursor:
         # Update the cursor with the updated list
         cursor.updateRow(row)
 ```
->>>>>>> Update cursors_fast_reproject.md
