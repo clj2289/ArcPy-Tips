@@ -26,7 +26,7 @@ ArcPy tips, tricks, best management practices and most of all...hacks!
 * Working with and installing python libraries for 64 Bit python i.e. c:\python27\ArcGISx6410.2\python
 
 ## Tricks
-* Use arcpy.da.UpdateCursor and arcpy.da.SearchCursor for fast in memory reprojection [a relative link](Tricks/cursors_fast_reproject.md)
+* [Use arcpy.da.UpdateCursor and arcpy.da.SearchCursor for fast in memory reprojection](Tricks/cursors_fast_reproject.md)
 * Output in_memory feature classes to shapefiles for debugging
 * Output map documents to mxds for debugging
 * All Geoprocessing services have a built-in file upload option that you can take advantage of
