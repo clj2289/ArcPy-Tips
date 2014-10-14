@@ -21,16 +21,12 @@ with arcpy.da.SearchCursor(springsInMemory, 'SHAPE@WKT', spatial_reference=sr) a
 
 
 ##### #3 Cursor based reprojection arcpy.SearchCursor (slower than using da cursors, only use for ArcGIS 10)
-cursor = arcpy.UpdateCursor(springsInMemory, "Shape@", spatial_reference=sr)
+cursor = arcpy.UpdateCursor(springsInMemory, spatial_reference=sr)
 for row in cursor:
-	print row[0]
+    print row
     cursor.updateRow(row)
 
 ##### #4 Cursor based reprojection arcpy.UpdateCursor (slower than using da cursors, only use for ArcGIS 10)
-cursor = arcpy.SearchCursor(springsInMemory, "Shape@", spatial_reference=sr)
+cursor = arcpy.SearchCursor(springsInMemory, spatial_reference=sr)
 for row in cursor:
-    print(row.getValue("Shape@"))
-
-##### #5 Project_management (can not output in_memory feature classes, very, very slow)
-projectedShapefile = "springs_projected.shp"
-arcpy.Project_management(springsInMemory, projectedShapefile, sr)
+    print row
