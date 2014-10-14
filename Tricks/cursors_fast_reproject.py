@@ -1,11 +1,13 @@
 import arcpy
 
-
+# define feature class locations
 springsShapefile = "../ExampleData/springs_fdep_2011/springs_fdep_2011.shp"
 springsInMemory = "in_memory//springs"
 
+# copy in shapefile to in_memory feature class
 arcpy.CopyFeatures_management (springsShapefile, springsInMemory)
 
+# create spatial reference object
 sr = arcpy.SpatialReference(4236)
 
 ##### #1 Cursor based reprojection da.UpdateCursor (fastest)
