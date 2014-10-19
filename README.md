@@ -27,7 +27,7 @@ ArcPy tips, tricks, best management practices and most of all...hacks!
 
 ## Tricks
 * [Use arcpy.da.UpdateCursor and arcpy.da.SearchCursor for fast in memory reprojection](Tricks/cursors_fast_reproject.py)
-* Output in_memory feature classes to shapefiles for debugging
+* [Output in_memory feature classes to shapefiles for debugging](Tricks/create_shp_for_debugging.py)
 * Output map documents to mxds for debugging
 * All Geoprocessing services have a built-in file upload option that you can take advantage of
 * For performance reasons, use synchronous tasks when possible
