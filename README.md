@@ -4,7 +4,7 @@ ArcPy-Tips
 ArcPy tips, tricks, best management practices and most of all...hacks!
 
 ## Best Management Practices
-* Use of data access cursors (arcpy.da.*)
+* Use [data access cursors (arcpy.da.*)](http://resources.arcgis.com/en/help/main/10.2/index.html#/What_is_the_data_access_module/018w00000008000000/) when possible.  Avoid using [legacy arcpy cursors](http://resources.arcgis.com/en/help/main/10.2/index.html#//018v0000002z000000) at all cost.
 * Always use a scratch workspace if you _have_ to write data to disk
 * Turn off archiving unless its required
 * Use "with" keyword when possible
