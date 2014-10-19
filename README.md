@@ -15,7 +15,7 @@ ArcPy tips, tricks, best management practices and most of all...hacks!
 * Use PyPyODBC
 * Always use in_memory feature classes when possible for high performance
 * Use list comprehension 
-* [Install pip on Windows](Tips/install_pip.txt)
+* [Install pip on Windows](Tips/install_pip.cmd)
 
 
 * Working with and installing python libraries for 64 Bit python i.e. c:\python27\ArcGISx6410.2\python
