@@ -1,11 +1,17 @@
 import arcpy
+import glob
+import os
+
+# Lets do some clean up first
+for shpFilePart in glob.glob("../ExampleData/out_points*"):
+    os.remove(shpFilePart)
 
 # define feature class locations
-springsShapefile = "../ExampleData/springs_fdep_2011/springs_fdep_2011.shp"
-springsInMemory = "in_memory//springs"
+springsShapefile = "../ExampleData/points.shp"
+springsInMemory = "in_memory//points"
 
 # copy in shapefile to in_memory feature class
 arcpy.CopyFeatures_management (springsShapefile, springsInMemory)
 
 # copy in_memory feature class to shapefile
-arcpy.CopyFeatures_management (springsInMemory, "../ExampleData/springs_fdep_2011/out_springs_fdep_2011.shp")
+arcpy.CopyFeatures_management (springsInMemory, "../ExampleData/out_points.shp")
