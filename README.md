@@ -10,7 +10,7 @@ ArcPy tips, tricks, best management practices and most of all...hacks!
 * Use ["with" keyword](https://docs.python.org/2/reference/compound_stmts.html#with) when possible when working with files, cursors, database connections and etc
 
 ## Tips
-* Call your python scripts from the command line and sent in parameters
+* [Call your python scripts from the command line and sent in parameters](Tips\call_from_command_line.md)
 * Use the built in python profiler to make your code faster (python -m cProfile -s tottime your.py cities.shp)
 * Use PyPyODBC
 * Always use in_memory feature classes when possible for high performance
