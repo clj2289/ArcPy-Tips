@@ -9,7 +9,7 @@ input = arcpy.GetParameterAsText(0)
 print input
 ```
 
-Now call this from the commandline:
+Now call this from the commandline with an argument:
 
 ```
 python call_from_command_line.py "Hello GetParameterAsText!"
