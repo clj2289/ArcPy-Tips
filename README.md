@@ -12,7 +12,6 @@ ArcPy tips, tricks, best management practices and most of all...hacks!
 ## Tips
 * [Call your python scripts from the command line and sent in parameters](Tips/call_from_command_line.md)
 * Use the built in python profiler to make your code faster (python -m cProfile -s tottime your.py cities.shp)
-* Use PyPyODBC
 * Always use in_memory feature classes when possible for high performance
 * Use list comprehension
 * [Install pip on Windows](Tips/install_pip.cmd)
